@@ -1,0 +1,16 @@
+{
+  "name": "Users admin",
+  "script": "server.js",
+  "node_args": "--icu-data-dir=./node_modules/full-icu",
+  "instances": "2",
+  "instance_var": "INSTANCE_NUMBER",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "env_qa": {
+    "NODE_ENV": "qa"
+  },
+  "env_production": {
+    "NODE_ENV": "production"
+  }
+}
